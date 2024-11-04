@@ -13,8 +13,6 @@ plugins {
 }
 
 kotlin {
-    jvm()
-
     androidTarget {
         compilations.all {
             compileTaskProvider.configure {
